@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+html,body, div, p, h1, h2, h3, h4, ul, li, dl, dt, dd, ol, form, table, tr, td, span, label, input, select, option, a, img, i, em, strong, b {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    border: 0 none;
+    vertical-align: top;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+body {
+    font-family: "微软雅黑";
+
+    font-size:14px;
+    background: #e9e9e9;
+}
+
+.clearfix {*zoom: 1;}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+/*主要代码*/
+
+.center{margin: 0 auto;}
+.header{width:100%;}
+.logo{width:149px;height:54px;padding:12px 848px 28px 29px;background: url("../images/logo_bg.png") no-repeat;}
+.header_main{height:569px;background: url("../images/header_bg.jpg") no-repeat center top;}
+.top{width:374px;height:112px;margin:363px auto 0;background: url("../images/toplist_bg.png") no-repeat;}
+h3{width:504px;height:70px;}
+li{position:relative ;float:left;display:inline;background:#ffffff;}
+i{display:block;position: absolute;width:41px;height:41px;text-indent: -99em;overflow: hidden;}
+.list_1{width:1004px;padding-left:14px;}
+#li-1{padding-top:60px;padding-bottom: 87px;}
+.list_1 li{width:488px;height:255px;margin:0 14px 16px 0;}
+.list_1 i{background: url("../images/spirit.png") -630px -69px ;}
+.list_1 img{float:left;width:265px;height:255px;padding-right:15px;}
+.list_1_top{margin:0 auto 35px;background: url("../images/spirit.png");}
+.list_1 .li-right{float: left;width:208px;padding-top:17px;overflow: hidden;}
+.ticket{display:block;text-align:center;width:93px;height:20px;background: #fb193f;line-height: 20px;}
+.list_1 .name{margin-left:-8px;padding-top:4px;border-bottom: 1px dashed #000000;line-height: 28px;font-size: 16px;color:#000000;display: block;margin-bottom: 3px;}
+.use{height:55px;background: url("../images/l-bg.png") no-repeat;padding:3px 0 0 5px;}
+.use span{float: left;line-height: 26px;font-size: 16px;width:100%;}
+.box1,.box2{float:left;display:inline;margin-right:5px;width:40px;height: 20px;line-height: 20px;text-align: center;font-size: 12px;border: 1px #8a8a8a solid;}
+.box2{width:70px;}
+.li-right p{margin-top:19px;line-height: 24px;color:#676767;}
+#price{margin-top:-3px;color: #fb193f;font-size: 18px;line-height: 18px;font-weight: bold;margin-bottom: 6px;}
+#price span{font-size: 22px;}
+.sale_up{height:25px;background: #e3e3e3;font-size: 12px;color: #000000;line-height: 25px;text-align: center;}
+.sale_a{display: block;background: #fb193f;height:34px;font-size: 16px;line-height: 34px;text-align: center;}
+.icon-angle-right{font-size: 16px;margin-left: 19px;}
+.icon-time{font-size: 16px;font-weight: 100;margin-right: 7px;}
+#footer{font-size:39px;width:990px;height:90px;line-height: 90px;text-align: center;background: #ffffff;margin-top:3px;}
+
+#li-2,#li-3,#li-4,#li-5,#li-6{width:100%;height:615px;background: #8e49ec;padding-top:60px;}
+.list_2_top,.list_3_top,.list_4_top,.list_5_top,.list_6_top{background: url("../images/spirit.png") 0 -70px;margin:0 auto 30px;}
+.list li{width:235px;height:330px;margin:0 16px 15px 0;}
+.list{padding-left:16px;width:1004px;}
+.list li i{background: url("../images/spirit.png") 41px -69px ;}
+.describe{height:31px;line-height:31px;text-align:center;background: #ff526e;color: #ffffff;}
+ .name{height:24px;border-bottom: 1px dashed #888888;line-height: 24px;text-align: center;color: #707070;}
+ .price{height:35px; padding-left: 8px;}
+ .pri_1{position:relative;float:left;display:inline;margin-top:6px;line-height: 29px;color:#bbbbbb;font-size: 13px;margin-right:9px;}
+ .pri_1 span{position:absolute;display:block;width:79px;height:1px;background:  #bbbbbb;top:50%;left:-2px;}
+.pri_2{float:left;line-height: 32px;color:#ff153b;}
+.pri_2 span{font-size: 22px;line-height: 32px;}
+.sale_box {float:left;border:1px dashed #9b5d6f;width:117px;height:27px;line-height: 27px;text-align: center;color:#ff153b;}
+.sale_box1{float:left;width:27px;border-right:1px dashed #9b5d6f; }
+.sale_box2{float:left;width:89px;}
+.sale_bt{float: left;line-height: 29px;text-align: center;background: #ff153b;width:116px;}
+
+#li-3{height: 484px;background: #ffe00d;}
+.list_3_top{background-position: 0 -140px;margin:0 auto 25px;}
+#i_2{background-position: 87px -110px;width:87px;height:62px;}
+
+#li-4{height:501px;background: #00d0ab;}
+.list_4_top{background-position: 0 -210px;}
+
+#li-5{height:524px;background: #fe416d;}
+.list_5_top{background-position: 0 140px;}
+.box{width:90px;height:45px;margin:0 auto;line-height: 45px;text-align: center;font-size: 20px;}
+.shop{display:block;color:#000000;height:27px;line-height: 27px;text-align: center;font-size:15px;}
+.li_footer{background: #f6f6f6;height:115px;}
+.li_footer .sale{width:220px;height:34px;margin: 0 auto;;line-height: 34px;text-align: center;font-size:15px;}
+.li_footer .icon-angle-right{margin-left: 3px;}
+.sale_L{float:left;width:107px;height:32px;color:#ff153b;border:1px dashed #ff1d3b;}
+.sale_R{float:left;width:112px;height:34px;color:#ffffff;margin-left: -1px;background: #ff243a;}
+
+#li-6{height:560px;background: #ff6434;}
+.list_6_top{background-position: 0 70px;}
+
+.nav{position: absolute;width: 90px; top:730px;right:27px;}
+.nav_top{width: 90px;height:69px;background: url("../images/spirit.png") no-repeat top right;}
+.nav_main{width:90px;background: #ffffff;font-size: 13px;}
+.nav_main a{display: block;color: #000000;width:66px;height:35px;padding:8px 12px 0 12px;line-height: 35px;text-align: center;}
+.nav_main a:hover{background: #ff4458;}
+.nav_main a p{display: block;border-bottom: #aaaaaa 1px dashed;}
+#last_a{height:40px;line-height: 15px;padding-top: 6px;}
